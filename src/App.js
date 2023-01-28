@@ -1,9 +1,14 @@
 import './App.css';
+import SideNav from './pages/SideNav';
+import TopBar from './pages/TopBar'
 
 function App() {
   return (
     <div className="App">
-      Money Manager
+      <SideNav />
+      <div className='app-cntr'>
+        <TopBar />
+      </div>
     </div>
   );
 }
