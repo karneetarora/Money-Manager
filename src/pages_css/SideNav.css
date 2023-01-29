@@ -13,6 +13,7 @@
 .temp-logo{
     height: 10%;
     border-bottom: 1px solid black;
+    margin-bottom: 1rem;
 }
 
 .side-nav-label{
@@ -26,7 +27,7 @@
 }
 
 a:active{
-    
+
 }
 
 ul:hover{

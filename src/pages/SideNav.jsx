@@ -3,6 +3,7 @@ import '../pages_css/SideNav.css'
 import MaterialIcon, {colorPalette} from 'material-icons-react';
 
 
+
 function SideNav() {
   return (
     <div className='side-nav-cntr'>
@@ -12,12 +13,16 @@ function SideNav() {
             <a className='side-nav-label'>Dashboard</a>
         </ul>
         <ul className='side-nav-item-cntr'>
-            <MaterialIcon icon="receipt" />
-            <a className='side-nav-label'>Transaction</a>
-        </ul>
-        <ul className='side-nav-item-cntr'>
             <MaterialIcon icon="insights" />
             <a className='side-nav-label'>Overview</a>
+        </ul>
+        <ul className='side-nav-item-cntr'>
+            <MaterialIcon icon="face" />
+            <a className='side-nav-label'>Investing</a>
+        </ul>
+        <ul className='side-nav-item-cntr'>
+            <MaterialIcon icon="receipt" />
+            <a className='side-nav-label'>Transaction</a>
         </ul>
         <ul className='side-nav-item-cntr'>
             <MaterialIcon icon="settings" />
